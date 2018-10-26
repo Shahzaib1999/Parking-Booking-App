@@ -1,0 +1,144 @@
+body{
+  overflow-x: hidden;
+  background: #F2F2F2
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@media(max-width: 330px){
+  #navHeading{
+    font-size: 19px
+  }
+}
+
+a:hover{
+  text-decoration: none
+}
+
+#user{
+  color: black
+}
+
+#user:hover{
+  color: white
+}
+
+#sign{
+  margin-top: 50px;
+  box-shadow: 0px 3px 10px grey;
+}
+
+#nav{
+   box-shadow: 0px 1px 30px grey;
+}
+
+#home{
+  margin: 0 auto;
+  border-radius: 10px
+}
+
+#center{
+  margin: 0 auto
+}
+
+#park{
+  margin-top: 100px
+}
+
+.park-btn{
+  color: black
+}
+
+.park-btn:hover{
+  color: white
+}
+
+#btn_slot{
+  width: 100px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 25px
+}
+
+.btn_slot{
+  width: 100px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 80px
+}
+
+@media (min-width: 768px){
+  .btn_slot{
+    margin-left: 60px
+  }
+}
+
+@media (max-width: 768px){
+  .btn_slot{
+    margin-left: 20px
+  }
+}
+/* 
+@media (max-width: 596px){
+  #btn_slot{
+    margin-left: 10px
+  }
+}
+
+@media (max-width: 575px){
+  #btn_slot{
+    margin-left: 30px
+  }
+} */
+
+@media (max-width: 380px){
+  .btn_slot{
+    margin-left: 40px
+  }
+}
+
+@media (max-width: 320px){
+  .btn_slot{
+    margin-left: 30px
+  }
+}
+
+#reply{
+  width: 350px
+}
+
+.jumbotron{
+  padding: 30px
+}
+
+#cancel{
+  margin-top: 11px
+}
+
+@media(max-width: 766px){
+  #responsive{
+    margin-top: 30px
+  }
+}
+
+@media(max-width: 416px){
+  #img{
+    width: 350px  
+  } 
+}
+
+@media(max-width:360px){
+  #img{
+    width: 330px  
+  } 
+}
+
+@media(max-width:340px){
+  #img{
+    width: 300px  
+  } 
+}
