@@ -7,12 +7,12 @@ import * as firebase from "firebase";
 
 
 var config = {
-    apiKey: "AIzaSyCBBZRDUL8hKZpTtG2c49np0q307H6GBlA",
+    apiKey: Your Api key,
     authDomain: "parking-booking-system-1999.firebaseapp.com",
-    databaseURL: "https://parking-booking-system-1999.firebaseio.com",
+    databaseURL: Your database url,
     projectId: "parking-booking-system-1999",
     storageBucket: "parking-booking-system-1999.appspot.com",
-    messagingSenderId: "899519094435"
+    messagingSenderId: your Id
 };
 firebase.initializeApp(config);
 
